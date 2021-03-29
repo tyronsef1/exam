@@ -1,0 +1,152 @@
+*{
+ margin: 0px;
+ padding: 0px;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+.wrapper{
+	background-color: pink;
+	width: 1600px;
+	height: 1000px;
+	margin: 0px auto;
+}
+
+	.header{
+		background-color: rgba(4,123,196,255);
+		height: 120px;
+	}
+		.side-header{
+			padding: 20px 0px 20px 40px;
+			display: inline-block;
+			vertical-align: top;
+		}
+			.side-header h1{
+				padding-top: 20px;
+				display: inline-block;
+				vertical-align: top;
+				font-size: 60px;
+			}
+
+			.side-header img{
+				width: 85px;
+				height: 85px;
+				vertical-align: top;
+			}
+		.main-header{
+			display: inline-block;
+			width: 1200px;
+		}
+			.main-header .nav-link{
+				padding-left: 175px;
+				margin: 10px 0px;
+			}
+				.main-header .nav-link a{
+					padding-left: 25px;
+					color: white;
+				}
+				.main-header .nav-link img{
+					width: 15px;
+					height: 15px;
+				}
+
+			.main-header .search{
+				background-color: rgba(246,194,74,255);
+				margin-left: 50px;
+				width: 750px;
+				height: 40px;
+				border-radius: 100px;
+				padding-left: 20px;
+				margin-top: 10px;
+				display: inline-block;
+				vertical-align: top;
+			}
+				.main-header .search img{
+					width: 20px;
+					height: 20px;
+					margin: 10px 0px 0px 10px;
+					display: inline-block;
+					vertical-align: top;
+				}
+
+				.main-header .search input{
+					width: 630px;
+					height: 37px;
+					padding-left: 20px;
+					margin-left: 15px;
+				}
+			.main-header .sign-in{
+				display: inline-block;
+				padding: 10px 20px 10px 140px;
+				border-right: 2px solid black;
+				vertical-align: top;
+			}
+				.main-header .sign-in h4, .main-header .sign-in h3{
+					display: block;
+				}
+				.main-header .sign-in a{
+					color: white;
+				}
+
+		.cart img{
+			margin: 8px 0px 0px 5px;
+			width: 55px;
+			height: 50px;
+		}
+
+	.nav-bar{
+		background-color: white;
+		padding: 6px;
+	}
+		.nav-bar a{
+			display: inline-block;
+			padding: 0px 20px;
+			color: rgba(4,123,196,255);
+		}
+
+		.nav-bar a:first-child{
+			padding: 0px 80px 0px 50px;
+			border-right: 1px solid rgba(209,209,209,255);
+		}
+
+		.nav-bar a:nth-child(2){
+			color: red;
+		}
+
+		.nav-bar a:last-child{
+			color: rgba(78,124,44,255);
+			padding-left: 320px;
+		}
+
+	.main-slider{
+		background-color: rgba(249,249,249,255);
+		height: 370px;
+		padding-left: 400px;
+	}
+
+		.main-slider h4{
+			color: rgba(4,123,196,255);
+			font-size: 30px;
+			padding-top: 20px;
+		}
+
+		.main-slider h1{
+			color: rgba(134,189,86,255);
+			font-size: 90px;
+		}
+
+		.main-slider h2{
+			color: rgba(134,189,86,255);
+			font-size: 60px;
+		}
+
+		.main-slider h3{
+			color: rgba(230,123,58,255);
+			font-size: 50px;
+		}
+
+		.main-slider h5{
+			padding-top: 10px;
+		}
